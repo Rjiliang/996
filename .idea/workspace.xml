@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1817958a-ccca-4247-ab51-2480ce8f552d" name="Default" comment="" />
+    <list default="true" id="1817958a-ccca-4247-ab51-2480ce8f552d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cherry/lambda/stream/StreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/流的操作分类.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/readme.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +21,7 @@
       <file leaf-file-name="FileService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cherry/lambda/file/FileService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
+            <state relative-caret-position="168">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
@@ -26,7 +31,7 @@
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/function/Function.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -34,8 +39,8 @@
       <file leaf-file-name="FileServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/cherry/lambda/file/FileServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="240">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,8 +51,8 @@
       <file leaf-file-name="FileCustomer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cherry/lambda/file/FileCustomer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="312">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -56,10 +61,22 @@
         <entry file="file://$PROJECT_DIR$/src/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="428">
-                <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+              <first_editor relative-caret-position="296">
+                <caret line="100" column="4" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/cherry/lambda/stream/StreamTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38">
+              <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,8 +84,8 @@
       <file leaf-file-name="LambdaTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cherry/lambda/file/LambdaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="21" column="50" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="21" selection-end-column="50" />
+            <state relative-caret-position="504">
+              <caret line="21" column="50" selection-start-line="12" selection-start-column="8" selection-end-line="21" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -82,6 +99,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -101,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cherry/lambda/file/FileService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cherry/lambda/file/FileServiceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cherry/lambda/file/LambdaTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cherry/lambda/stream/StreamTest.java" />
         <option value="$PROJECT_DIR$/src/readme.md" />
       </list>
     </option>
@@ -144,7 +165,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -156,7 +177,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,6 +238,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cherry" type="462c0819:PsiDirectoryNode" />
               <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="996" type="b2602c69:ProjectViewProjectNode" />
+              <item name="996" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cherry" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
               <item name="file" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,7 +300,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="cherry" type="462c0819:PsiDirectoryNode" />
               <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="996" type="b2602c69:ProjectViewProjectNode" />
@@ -315,6 +346,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,7 +382,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FileServiceTest.testFileService">
+  <component name="RunManager" selected="JUnit.StreamTest.streamCartHandle">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -380,6 +412,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="StreamTest.streamCartHandle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="996" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cherry.lambda.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.cherry.lambda.stream" />
+      <option name="MAIN_CLASS_NAME" value="com.cherry.lambda.stream.StreamTest" />
+      <option name="METHOD_NAME" value="streamCartHandle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="Test.testLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="996" />
       <extension name="coverage">
@@ -393,29 +448,6 @@
       <option name="PACKAGE_NAME" value="com.cherry.lambda.cart" />
       <option name="MAIN_CLASS_NAME" value="com.cherry.lambda.cart.Test" />
       <option name="METHOD_NAME" value="testLambda" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Version2Test.testFilterElectronicsSkus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="996" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cherry.lambda.cart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.cherry.lambda.cart" />
-      <option name="MAIN_CLASS_NAME" value="com.cherry.lambda.cart.Version2Test" />
-      <option name="METHOD_NAME" value="testFilterElectronicsSkus" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -511,19 +543,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Version2Test.testFilterElectronicsSkus" />
       <item itemvalue="JUnit.Version3Test.testFilterSkus" />
       <item itemvalue="JUnit.Version3Test.testFilterSkus2" />
       <item itemvalue="JUnit.Test.testLambda" />
       <item itemvalue="JUnit.FileServiceTest.testFileService" />
+      <item itemvalue="JUnit.StreamTest.streamCartHandle" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamTest.streamCartHandle" />
         <item itemvalue="JUnit.FileServiceTest.testFileService" />
         <item itemvalue="JUnit.Test.testLambda" />
         <item itemvalue="JUnit.Version3Test.testFilterSkus2" />
         <item itemvalue="JUnit.Version3Test.testFilterSkus" />
-        <item itemvalue="JUnit.Version2Test.testFilterElectronicsSkus" />
       </list>
     </recent_temporary>
   </component>
@@ -539,6 +571,7 @@
       <updated>1575295220057</updated>
       <workItem from="1575295223755" duration="5664000" />
       <workItem from="1575381531750" duration="3518000" />
+      <workItem from="1575462257549" duration="3531000" />
     </task>
     <servers />
   </component>
@@ -564,9 +597,12 @@
     <history-entry file="FileServiceTest_testFileService - 2019.12.03 at 22h 55m 24s.xml">
       <configuration name="FileServiceTest.testFileService" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StreamTest_streamCartHandle - 2019.12.04 at 22h 17m 54s.xml">
+      <configuration name="StreamTest.streamCartHandle" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9182000" />
+    <option name="totallyTimeSpent" value="12713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -580,19 +616,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3299356" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32988507" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32988507" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.37241378" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25375536" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25751072" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -602,33 +638,33 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32988507" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32988507" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32988507" />
       <window_info id="Image Layers" order="0" />
       <window_info id="Designer" order="1" />
       <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32988507" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.3299356" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,6 +679,54 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cherry/lambda/file/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cherry/lambda/file/FileServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cherry/lambda/file/FileCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cherry/lambda/file/LambdaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1800">
+            <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -654,20 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="696">
           <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -675,9 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1968">
           <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -692,10 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="e#329#513#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -717,9 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -751,9 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -782,10 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
           <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="e#329#513#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,16 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1968">
           <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cherry/lambda/cart/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -810,34 +853,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-          <folding>
-            <element signature="e#678#679#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cherry/lambda/file/FileCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/cherry/lambda/file/FileServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="240">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -847,7 +869,7 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="29" column="48" lean-forward="true" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -856,23 +878,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cherry/lambda/file/FileService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
+        <state relative-caret-position="168">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cherry/lambda/file/LambdaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="50" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="21" selection-end-column="50" />
+        <state relative-caret-position="504">
+          <caret line="21" column="50" selection-start-line="12" selection-start-column="8" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cherry/lambda/cart/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cherry/lambda/file/FileCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cherry/lambda/stream/StreamTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="57" column="23" lean-forward="true" selection-start-line="57" selection-start-column="23" selection-end-line="57" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="428">
-            <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+          <first_editor relative-caret-position="296">
+            <caret line="100" column="4" lean-forward="true" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
