@@ -99,3 +99,13 @@ java.util.function包下的函数接口
 数据源
 中间操作
 终端操作
+
+### 构建流的几种方式
+* 由数值直接构成流（Stream.of(1, 2, 3, 4, 5, 6)）
+* 由数组直接构成流（Arrays.stream(numbers)）
+* 通过文件生成流（Files.lines(Paths.get(""))）
+* 通过函数生成流--无限流（Stream.iterate(0, n -> n + 2)||Stream.generate(Math::random)）
+
+### 流的收集器
+>介绍
+将流中的元素累积成一个结果，作用于终端操作collect()上
